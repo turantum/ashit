@@ -1,0 +1,588 @@
+*{padding: 0; margin: 0}
+
+html *{
+	font-family: 'Roboto', sans-serif;
+}
+.main
+{
+	position: relative;
+	width: 1920px;
+	height: 3240px;
+
+	background: #FFFFFF;
+}
+
+/*Шапка*/
+
+.header
+{z
+	position: absolute;
+	width: 1920px;
+	height: 116px;
+	left: 0px;
+	top: 0px;
+
+	background: #FFFFFF;
+}
+
+.logo
+{
+	position: absolute;
+	width: 310px;
+	height: 64px;
+	left: 19px;
+	top: 25px;
+}
+
+.glav
+{
+	position: absolute;
+	width: 128px;
+	height: 35px;
+	left: 960px;
+	top: 40px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.news
+{
+	position: absolute;
+	width: 129px;
+	height: 35px;
+	left: 1134px;
+	top: 40px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.about
+{
+	position: absolute;
+	width: 78px;
+	height: 35px;
+	left: 1309px;
+	top: 40px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.student
+{
+	position: absolute;
+	width: 155px;
+	height: 35px;
+	left: 1433px;
+	top: 40px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.line_1
+{
+	position: absolute;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	top: 116px;
+
+	border: 1px solid #224BFF;
+}
+
+/*Информация о колледже*/
+.photocoll
+{
+	position: absolute;
+	width: 858px;
+	height: 644px;
+	left: 80px;
+	top: 149px;
+}
+
+.text
+{
+	position: absolute;
+	width: 860px;
+	height: 331px;
+	left: 1003px;
+	top: 306px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+/*Первая серая линия*/
+.chips
+{
+	position: absolute;
+	width: 1920px;
+	height: 146px;
+	left: 0px;
+	top: 876px;
+
+	background: rgba(187, 187, 187, 0.26);
+}
+
+.vipusk
+{
+	position: absolute;
+	width: 164px;
+	height: 96px;
+	left: 507px;
+	top: 25px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+
+.base
+{
+	position: absolute;
+	width: 164px;
+	height: 96px;
+	left: 754px;
+	top: 25px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+
+.practic
+{
+	position: absolute;
+	width: 164px;
+	height: 96px;
+	left: 1001px;
+	top: 25px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+
+.jelezo
+{
+	position: absolute;
+	width: 164px;
+	height: 96px;
+	left: 1248px;
+	top: 25px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+/*Почему мы?*/
+.why
+{
+	position: absolute;
+	width: 1920px;
+	height: 700px;
+	left: 0px;
+	top: 1105px;
+}
+
+.blbl
+{
+	position: absolute;
+	width: 530px;
+	height: 700px;
+	left: 84px;
+	top: 0px;
+
+	background: rgba(34, 75, 255, 0.46);
+}
+
+.wtf
+{
+	position: absolute;
+	width: 530px;
+	height: 150px;
+	left: 84px;
+	top: 269px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 69px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.gr1
+{
+	position: absolute;
+	width: 356px;
+	height: 296px;
+	left: 676px;
+	top: 202px;
+
+	background: rgba(255, 255, 255, 0.09);
+	border: 7px solid rgba(0, 0, 0, 0.22);
+	box-sizing: border-box;
+}
+
+.vostreb
+{
+	position: absolute;
+	width: 252px;
+	height: 327px;
+	left: 728px;
+	top: 186px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+
+.gr2
+{
+	position: absolute;
+	width: 356px;
+	height: 296px;
+	left: 1090px;
+	top: 202px;
+
+	background: rgba(255, 255, 255, 0.09);
+	border: 7px solid rgba(0, 0, 0, 0.22);
+	box-sizing: border-box;
+}
+
+.obrazovanie
+{
+	position: absolute;
+	width: 252px;
+	height: 96px;
+	left: 1142px;
+	top: 308px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+
+.gr3
+{
+	position: absolute;
+	width: 356px;
+	height: 296px;
+	left: 1504px;
+	top: 202px;
+
+	background: rgba(255, 255, 255, 0.09);
+	border: 7px solid rgba(0, 0, 0, 0.22);
+	box-sizing: border-box;
+}
+
+.ochnoe
+{
+	position: absolute;
+	width: 164px;
+	height: 96px;
+	left: 1600px;
+	top: 308px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+/*Вторая серая линия*/
+.it
+{
+	position: absolute;
+	width: 1920px;
+	height: 146px;
+	left: 0px;
+	top: 1888px;
+
+	background: rgba(187, 187, 187, 0.26);
+}
+.txtit
+{
+	position: absolute;
+	width: 1920px;
+	height: 146px;
+	left: 0px;
+	top: 0px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 75px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+	justify-content: space-around;
+}
+/*Профессии*/
+.professions
+{
+	position: absolute;
+	width: 1920px;
+	height: 1014px;
+	left: 0px;
+	top: 2095px;
+}
+
+.sysadmin
+{
+	position: absolute;
+	width: 640px;
+	height: 1014px;
+	left: 0px;
+	top: 0px;
+
+	background: #FFFFFF;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+}
+
+.programmer
+{
+	position: absolute;
+	width: 640px;
+	height: 1014px;
+	left: 640px;
+	top: 0px;
+
+	background: #FFFFFF;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+	}
+
+.designer
+{
+	position: absolute;
+	width: 640px;
+	height: 1014px;
+	left: 1280px;
+	top: 0px;
+
+	background: #FFFFFF;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+}
+
+.t
+{
+	position: absolute;
+	width: 640px;
+	height: 201px;
+	left: 0px;
+	top: 806px;
+}
+
+.t1
+{
+	position: absolute;
+	width: 640px;
+	height: 201px;
+	left: 0px;
+	top: 0px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 75px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+	justify-content: space-around;
+}
+
+.t2
+{
+	position: absolute;
+	width: 640px;
+	height: 208px;
+	left: 0px;
+	top: 0px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 75px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+	justify-content: space-around;
+}
+
+.t3
+{
+	position: absolute;
+	width: 640px;
+	height: 208px;
+	left: 0px;
+	top: 0px;
+
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 75px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+	justify-content: space-around;
+}
+/*Подвал*/
+
+.footer
+{
+	position: absolute;
+	width: 1920px;
+	height: 119px;
+	left: 0px;
+	top: 3121px;
+}
+
+.line_2
+{
+	position: absolute;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	top: 4px;
+
+	border: 1px solid #224BFF;
+}
+.vk
+{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 882px;
+	top: 46px;
+	}
+
+.telegram
+{
+	position: absolute;
+	left: 48.23%;
+	right: 50.52%;
+	top: 40%;
+	bottom: 39.13%;
+}
+
+.instagram
+{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 970px;
+	top: 46px;
+}
+
+.mail
+{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 1014px;
+	top: 46px;
+}
