@@ -3,24 +3,27 @@ html *{
 }
 
 .main{
-	display: flex;
+	display: grid;
 	grid-gap: 1em;
 }
 
 .header{
 	display: flex;
-	grid-template-columns: 1fr 4fr;
+	border-bottom-width: 1px;
+	border-color: #0000FF;
 }
 	.logo{
-
 	}
 	.headblock{
 		display: flex;
 		flex-direction: row;
-		justify-items: center;
+		flex: 1;
+		justify-content: center;
+		align-items: center;
 	}
 		.shapkatxt{
-			background-color: #00FFFF;
+			font-size: 30px;
+			margin-right: 46px;
 		}
 .info{
 	
