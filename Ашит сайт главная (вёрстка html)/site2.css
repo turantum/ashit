@@ -1,0 +1,65 @@
+html *{
+	font-family: 'Roboto', sans-serif;
+}
+
+.main{
+	display: grid;
+	grid-gap: 1em;
+}
+
+.header{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+	.logo{
+	}
+	.headblock{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		justify-items: center;
+	}
+		.glav{
+			background-color: #00FFFF
+		}
+		.news{
+			background-color: #EEE8AA	
+			
+		}
+		.about{
+			background-color: #FF00FF
+			
+		}
+		.students{
+			background-color: #A52A2A
+			
+		}
+
+.info{
+	
+}
+	.photocoll{
+		
+	}
+	.text{
+		
+	}
+
+.chips{
+	
+}
+
+.why{
+	
+}
+
+.it{
+	
+}
+
+.professions{
+	
+}
+
+.footer{
+	
+}
